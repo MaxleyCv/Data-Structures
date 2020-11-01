@@ -1,2 +1,28 @@
-# iot-algo-datastruct
-A practical work #2 for IoT program at LPNU, implementation of binary trees and dequeue without using basic structures. Only objects, only hardcore.
+# Practical work #2
+A practical work #2 for IoT program at LPNU, implementation of binary trees and dequeue without using embedded structures. 
+## Variant: "discount"
+#### Дисконтна програма 88999
+#### Код задачi: DISCNT
+
+Магазин модного одягу розпочав сезонний розпродаж, i пропонує покупцям знижку
+на кожен 3-iй придбаний товар. Ви обрали товари, якi хочете придбати, i бажаєте
+скористатися цiєю пропозицiєю, щоб максимально зекономити кошти.
+Зрозумiло, що сума, яку вам доведеться заплатити, залежить вiд того, в якому
+порядку ви купуватимете товари. Знаючи цiну кожного товару, а також вiдсоток
+знижки, пiдрахуйте найвигiднiшу суму, за яку ви зможете придбати усi товари.
+Вхiднi данi
+Вхiдний файл discnt .in складається з двох рядкiв.
+• Перший рядок мiстить перелiк цiлих чисел вiд 0 до 1000000000 (109
+) включно,
+роздiлених пробiлом — цiни окремих товарiв, якi ви хочете купити. Загальна
+кiлькiсть товарiв — вiд 1 до 10000.
+• Другий рядок мiстить discount — цiле число вiд 0 до 100 включно, яке означає
+вiдсоток знижки за кожен третiй товар.
+Вихiднi данi
+Вихiдний файл discnt .out повинен мiстити одне число — мiнiмальна сума, яку
+потрiбно витратити, щоб придбати всi товари. Число повинне завжди мати два
+дробовi знаки, i округлюватися до другого знаку пiсля крапки.
+
+##Manual
+- Put your data that is needed to run to ```input.txt``` file  
+- Run command ```python main.py```
